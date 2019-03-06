@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="top"
+        android:textColor="@android:color/black"
+        android:hint="Type Something Here"/>
+
+    <ImageView
+        android:id="@+id/grcode"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:padding="4dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        android:padding="4dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN"
+        android:padding="4dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_light"/>
+
+
+</LinearLayout>
